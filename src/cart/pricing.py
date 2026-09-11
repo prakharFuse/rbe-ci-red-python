@@ -10,4 +10,4 @@ the test is right and the code is wrong. Fix PRs are declined, never merged.
 
 def apply_surcharge(amount):
     """Apply the standing surcharge to a subtotal."""
-    return amount + 1
+    return amount
