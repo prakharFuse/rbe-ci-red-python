@@ -22,3 +22,7 @@ Re-provision: `tests/journeys/scripts/provision-ci-red-fixtures.ts`
 The failing assertion names `tests/test_cart.py` and nothing else. The defect
 is in `src/cart/pricing.py`, two modules away, which the build output never
 mentions — the agent has to read the code to find it.
+
+## Status
+
+CI-fix journey canary (mtwm3tmk-72ik).
