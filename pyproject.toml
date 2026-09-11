@@ -1,0 +1,9 @@
+[project]
+name = "rbe-ci-red-python"
+version = "1.0.0"
+description = "Journey fixture: main deliberately red (failing pytest); PR-branch automated CI fixes are expected."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
